@@ -1,0 +1,6 @@
+from src.frota.frota_manager import FrotaManager
+
+def test_cadastro():
+    manager = FrotaManager()
+    manager.cadastrar_caminhao("XYZ-0000", "Mercedes", 2023)
+    assert len(manager.caminhoes) == 1

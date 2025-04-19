@@ -1,0 +1,17 @@
+# Sistema de Controle de Frota de Caminhões
+
+Este projeto em Python realiza o gerenciamento de uma frota de caminhões. Ele permite:
+- Cadastrar veículos
+- Registrar viagens e manutenções
+- Acompanhar desempenho e histórico
+- Gerar relatórios
+
+## Funcionalidades
+- Cadastro de caminhões
+- Registro de viagens (data, origem, destino, km, combustível)
+- Controle de manutenções periódicas
+- Relatórios em CSV
+
+## Execução
+```bash
+python main.py
